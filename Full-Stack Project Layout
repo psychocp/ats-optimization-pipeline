@@ -1,0 +1,23 @@
+ats-software/
+│
+├── backend/                             # ASYNC PYTHON BACKEND ENGINE
+│   ├── requirements.txt                 # Manifest for core app packages
+│   ├── venv/                            # Isolated virtual environment runtime
+│   └── app/                             # Active backend execution package
+│       ├── __init__.py                  # Package initializing pointer
+│       ├── main.py                      # REST route manager & CORS setup
+│       ├── parser.py                    # PDF stream extraction block
+│       ├── scorer.py                    # NLP matching core & similarity matrix
+│       └── generator.py                 # Clean single-column PDF compiler
+│
+└── frontend/                            # REACT CLIENT INTERFACE HUB
+    ├── index.html                       # Base single-page layout mount point
+    ├── package.json                     # Node script and package manifests
+    ├── tailwind.config.js               # Visual configuration style sheets
+    └── src/
+        ├── main.jsx                     # Core application entry bootstrap
+        ├── index.css                    # Tailwinds utility layer directives
+        ├── App.jsx                      # Active workspace tab switch center
+        └── components/                  # Isolated frontend view frames
+            ├── Scorer.jsx               # Upload panel, metrics & ring displays
+            └── Builder.jsx              # Sectioned input wizards & download triggers
