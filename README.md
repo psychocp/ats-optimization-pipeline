@@ -1,11 +1,16 @@
-# ats-optimization-pipeline
-A full-stack AI Resume Intelligence &amp; ATS Optimization suite. Powered by a high-performance Python FastAPI backend utilizing NLP (spaCy) for semantic keyword matching and an in-memory linear text PDF generation compiler, integrated with a modular React/Tailwind frontend architecture.
-Since you have both backends and frontends working seamlessly, consider adding a quick Architecture Workflow visual or list right at the top of your repository readme to highlight your engineering choices:
+# React + Vite
 
-Frontend Client: React.js, Vite, Tailwind CSS (Responsive tabbed workspaces)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Backend Server: FastAPI, Uvicorn (Asynchronous REST API framework)
+Currently, two official plugins are available:
 
-Analytics Layer: Scikit-Learn (TF-IDF Vectorization) & spaCy (en_core_web_sm tokenization)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Compilation Engine: FPDF2 (Linear formatting stream layout for standard scanners)
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
