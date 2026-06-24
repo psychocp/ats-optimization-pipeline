@@ -1,0 +1,9 @@
+backend/
+├── requirements.txt      # Core dependency manifest file
+├── venv/                 # Isolated python runtime virtual environment
+└── app/                  # Central software application package folder
+    ├── __init__.py      # Empty module initialization file
+    ├── main.py          # FastAPI application server & REST gateway
+    ├── parser.py        # PDF extraction utility module
+    ├── scorer.py        # Natural Language Processing intelligence module
+    └── generator.py     # Pure Python PDF generation matrix
