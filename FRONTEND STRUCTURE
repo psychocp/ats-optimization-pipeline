@@ -1,0 +1,12 @@
+frontend/
+├── public/              # Static global assets
+├── index.html           # Main DOM injection entry point
+├── package.json         # Package dependency matrix
+├── tailwind.config.js   # Custom style configuration presets
+└── src/
+    ├── main.jsx         # React application bootstrap mount
+    ├── index.css        # Global Tailwind layout directives
+    ├── App.jsx          # Central workspace shell and tab controller
+    └── components/      # Independent, modular view blocks
+        ├── Scorer.jsx   # ATS core analysis, upload, & keyword metrics
+        └── Builder.jsx  # Structured form wizard & PDF compiler client
